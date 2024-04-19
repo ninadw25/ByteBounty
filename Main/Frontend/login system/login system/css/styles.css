@@ -1,0 +1,45 @@
+body {
+    background-image: url('https://imgs.search.brave.com/W3I4Xg3LMP6qSztPTNXON6l5jhO6fiw1yeeqODgSQaY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9lbWVy/aXR1cy5vcmcvd3At/Y29udGVudC91cGxv/YWRzL3NpdGVzLzMv/MjAyMi8wMi9CTUwt/NjAuanBn');
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.7); /* Translucent white background */
+    font-family: Arial, sans-serif;
+ }
+ 
+ .form-container {
+    max-width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+ }
+ 
+ h3 {
+    font-size: 28px;
+    text-align: center;
+    color: #333;
+ }
+ 
+ input[type="email"],
+ input[type="password"],
+ input[type="submit"] {
+    width: 100%;
+    padding: 8px; /* Reduced padding */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px; /* Reduced font size */
+    background-color: orange;
+    color: white;
+ }
+ 
+ .form-btn {
+    cursor: pointer;
+    background-color: #007BFF;
+ }
+ 
+ .form-btn:hover {
+    background-color: #0056b3;
+ }
+ 
