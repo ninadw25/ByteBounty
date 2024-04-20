@@ -1,3 +1,4 @@
+
 /* General Body and Header Styling */
 body {
     font-family: Arial, sans-serif;
@@ -49,6 +50,9 @@ header h1 {
     position: relative;
     overflow: hidden;
 }
+.box:hover{
+    height: 800px;
+}
 
 .box img {
     width: 100%;
@@ -77,6 +81,7 @@ header h1 {
     position: absolute;
     width: 100%;
     display: none;
+    width: 100%;
     left: 0;
     z-index: 1;
 }

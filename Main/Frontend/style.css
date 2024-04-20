@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 *{
+=======
+* {
+>>>>>>> Stashed changes
     margin: 0;
     padding: 0;
 }
@@ -10,58 +14,95 @@ body {
     background-position: center;
 }
 
+<<<<<<< Updated upstream
 
 .main{
     width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+=======
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(1.jpg);
+>>>>>>> Stashed changes
     background-position: center;
     background-size: cover;
     height: 100vh;
 }
 
+<<<<<<< Updated upstream
 .navbar{
+=======
+.navbar {
+>>>>>>> Stashed changes
     width: 1200px;
     height: 75px;
     margin: auto;
 }
 
+<<<<<<< Updated upstream
 .icon{
+=======
+.icon {
+>>>>>>> Stashed changes
     width: 200px;
     float: left;
     height: 70px;
 }
 
+<<<<<<< Updated upstream
 .logo{
+=======
+.logo {
+>>>>>>> Stashed changes
     color: #ff7200;
     font-size: 35px;
     font-family: Arial;
     padding-left: 20px;
     float: left;
     padding-top: 10px;
+<<<<<<< Updated upstream
     margin-top: 5px
 }
 
 .menu{
+=======
+    margin-top: 5px;
+}
+
+.menu {
+>>>>>>> Stashed changes
     width: 400px;
     float: left;
     height: 70px;
 }
 
+<<<<<<< Updated upstream
 ul{
+=======
+ul {
+>>>>>>> Stashed changes
     float: left;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+<<<<<<< Updated upstream
 ul li{
+=======
+ul li {
+>>>>>>> Stashed changes
     list-style: none;
     margin-left: 62px;
     margin-top: 27px;
     font-size: 14px;
 }
 
+<<<<<<< Updated upstream
 ul li a{
+=======
+ul li a {
+>>>>>>> Stashed changes
     text-decoration: none;
     color: #fff;
     font-family: Arial;
@@ -69,25 +110,43 @@ ul li a{
     transition: 0.4s ease-in-out;
 }
 
+<<<<<<< Updated upstream
 ul li a:hover{
     color: #ff7200;
 }
 
 .search{
+=======
+ul li a:hover {
+    color: #ff7200;
+}
+
+.search {
+>>>>>>> Stashed changes
     width: 330px;
     float: left;
     margin-left: 270px;
 }
 
+<<<<<<< Updated upstream
 .srch{
+=======
+.srch {
+>>>>>>> Stashed changes
     font-family: 'Times New Roman';
     width: 200px;
     height: 40px;
     background: transparent;
+<<<<<<< Updated upstream
     border: 1px solid #ff7200;
     margin-top: 13px;
     color: #fff;
     border-right: none;
+=======
+    border: none;
+    margin-top: 13px;
+    color: #fff;
+>>>>>>> Stashed changes
     font-size: 16px;
     float: left;
     padding: 10px;
@@ -95,11 +154,19 @@ ul li a:hover{
     border-top-left-radius: 5px;
 }
 
+<<<<<<< Updated upstream
 .btn{
     width: 100px;
     height: 40px;
     background: #ff7200;
     border: 2px solid #ff7200;
+=======
+.btn {
+    width: 100px;
+    height: 40px;
+    background: none;
+    border: none;
+>>>>>>> Stashed changes
     margin-top: 13px;
     color: #fff;
     font-size: 15px;
@@ -108,6 +175,7 @@ ul li a:hover{
     transition: 0.2s ease;
     cursor: pointer;
 }
+<<<<<<< Updated upstream
 .btn:hover{
     color: #000;
 }
@@ -271,3 +339,87 @@ ul li a:hover{
 .icons ion-icon:hover{
     color: #ff7200;
 }
+=======
+.btn:hover {
+    color: #000;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.srch:focus {
+    outline: none;
+}
+
+/* Style for the login box */
+.login-area {
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    transform: translateY(-50%);
+    width: 300px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.login-quote {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.login-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #ff7200;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #e66000;
+}
+
+/* Style for the academic quote */
+.academic-quote p {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+    width: 400px;
+    color: #fff;
+    font-size: 28px; /* Increased font size for better visibility */
+    text-align: center;
+    font-family: 'Georgia', serif;
+    font-style: italic;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 30px;
+}
+
+.social-icons ion-icon {
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover ion-icon {
+    color: #ff7200;
+}
+>>>>>>> Stashed changes
