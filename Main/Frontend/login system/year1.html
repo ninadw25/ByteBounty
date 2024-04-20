@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Year 1 Subjects</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f6dece;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      margin: 0;
+    }
+    h1,
+h2 {
+  background-color: #ff8c00;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.semester-container {
+  display: flex;
+  justify-content: center;
+  gap: 60px; /* Increased gap between semesters */
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.subject-box {
+  background-color:#ff8c00;
+  color:white;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  width: 100%; 
+  cursor: pointer;
+}
+
+.subject-box:hover {
+  transform: translateY(-5px);
+}
+
+a {
+  color:white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color:white;
+}
+  </style>
+</head>
+
+<body>
+  <h1>Year 1</h1>
+  <div class="semester-container">
+    <div class="container">
+      <h2>Semester 1</h2>
+      <div class="subject-box">
+        <a href="FDS.html">Fundametal of Data Science</a>
+      </div>
+      <div class="subject-box">
+        <a href="#">Mathematics For Engineers-I</a>
+      </div>
+      <div class="subject-box">
+        <a href="#">C++</a>
+      </div>
+      <div class="subject-box">
+        <a href="#">Basics of electronics and electrical engineering </a>
+      </div>
+      <div class="subject-box">
+        <a href="#">Chemistry</a>
+      </div>
+      <div class="subject-box">
+        <a href="#">Physics</a>
+      </div>
+    </div>
+    <div class="container">
+      <h2>Semester 2</h2>
+      <div class="subject-box">
+        <a href="#">Applied Data Science</a>
+      </div>
+      <div class="subject-box">
+        <a href="#">Mathematics For Engineers-II</a>
+      </div>
+      <div class="subject-box">
+        <a href="#">Fundamental of Digital Logic</a>
+      </div>
+      <div class="subject-box">
+        <a href="#">Data Structures and Algorithm</a>
+      </div>
+      <div class="subject-box">
+        <a href="#">Environmental Studies</a>
+      </div>
+      <div class="subject-box">
+        <a href="#">Thechnical Report Writing</a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
