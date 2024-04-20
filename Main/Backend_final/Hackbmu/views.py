@@ -5,5 +5,6 @@ from django.http import HttpResponse
 #def home(request):
     #return HttpResponse("Hello This is ByteBounty website")
     
-def home(request):
-        return render(request,'home.html')
+def mainpage(request):
+        return render(request,'mainpage.html')
+
